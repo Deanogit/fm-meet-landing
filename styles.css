@@ -8,7 +8,7 @@ body {
   width: 100vw;
   background-color: #f2f2f2;
 
-  font-family: "Red Hat Display";
+  font-family: 'Red Hat Display';
 }
 
 /* //////////////
@@ -42,12 +42,12 @@ body {
 .main-card::before,
 .main-card::after {
   position: absolute;
-  content: "";
+  content: '';
   /* z-index: -3; */
 }
 
 .main-card::before {
-  background-image: url("/starter-code/assets/desktop/image-hero-left.png");
+  background-image: url('/assets/desktop/image-hero-left.png');
   width: 199px;
   height: 153px;
   background-repeat: no-repeat;
@@ -56,7 +56,7 @@ body {
   left: -20px;
 }
 .main-card::after {
-  background-image: url("/starter-code/assets/desktop/image-hero-right.png");
+  background-image: url('/assets/desktop/image-hero-right.png');
   width: 199px;
   height: 153px;
   background-repeat: no-repeat;
@@ -395,7 +395,7 @@ header a:active {
 
   z-index: 1;
 
-  background-image: url("/starter-code/assets/mobile/image-footer.jpg");
+  background-image: url('/assets/mobile/image-footer.jpg');
 
   background-position: top;
 
@@ -495,7 +495,7 @@ header a:active {
   } */
 
   .main-card::before {
-    background-image: url("/starter-code/assets/tablet/image-hero.png");
+    background-image: url('/assets/tablet/image-hero.png');
     width: 820px;
     height: 303px;
     left: -25px;
@@ -636,7 +636,7 @@ header a:active {
   }
 
   .footer-bg {
-    background-image: url("/starter-code/assets/tablet/image-footer.jpg");
+    background-image: url('/assets/tablet/image-footer.jpg');
   }
 }
 
@@ -657,13 +657,13 @@ header a:active {
   }
 
   .main-card::before {
-    background-image: url("/starter-code/assets/desktop/image-hero-left.png");
+    background-image: url('/assets/desktop/image-hero-left.png');
     top: 175px;
     left: -30px;
   }
 
   .main-card::after {
-    background-image: url("/starter-code/assets/desktop/image-hero-right.png");
+    background-image: url('/assets/desktop/image-hero-right.png');
     display: inline-block;
     top: 230px;
     right: -30px;
@@ -755,7 +755,7 @@ header a:active {
   }
 
   .footer-bg {
-    background-image: url("/starter-code/assets/desktop/image-footer.jpg");
+    background-image: url('/assets/desktop/image-footer.jpg');
     height: 308px;
   }
 
